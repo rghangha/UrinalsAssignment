@@ -13,7 +13,14 @@ public class urinals {
         System.out.println(countUrinals(s));
         System.out.println("Input string through urinal.dat file :-");
         File file = new File("C:\\Users\\rghangha\\UrinalsAssignment\\urinal.dat");
-        Writer wr = new FileWriter("C:\\Users\\rghangha\\UrinalsAssignment\\rule.txt");
+        int i=0;
+        while(true){
+            File check = new File("C:\\Users\\rghangha\\UrinalsAssignment\\rule"+i+".txt");
+            if(!check.exists())
+                break;
+            else i++;
+        }
+        Writer wr = new FileWriter("C:\\Users\\rghangha\\UrinalsAssignment\\rule"+i+".txt");
         Scanner sc2 = new Scanner(file);
         while(sc2.hasNextLine()) {
             String line = sc2.nextLine();
