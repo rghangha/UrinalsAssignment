@@ -9,5 +9,7 @@ public class urinalsTest {
     void test() {
         System.out.print("======= Rahul Ghanghas ==== TEST ONE EXECUTED =======");
         assertTrue(urinals.goodString("100001"));
+        System.out.print("======= Rahul Ghanghas ==== TEST TWO EXECUTED =======");
+        assertTrue(urinals.goodString("100_11"));
     }
 }
