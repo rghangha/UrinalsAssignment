@@ -18,7 +18,7 @@ public class urinals {
         while(sc2.hasNextLine()) {
             String line = sc2.nextLine();
             int freeUrinals = countUrinals(line);
-            wr.write(Integer.toString(freeUrinals)+"\n");
+            wr.write(freeUrinals+"\n");
         }
         wr.close();
     }
