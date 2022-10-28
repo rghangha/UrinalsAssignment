@@ -19,5 +19,7 @@ public class urinalsTest {
         assertEquals(3, urinals.countUrinals("00000"));
         System.out.println("======= Rahul Ghanghas ==== TEST SIX EXECUTED =======");
         assertEquals(1, urinals.countUrinals("01000"));
+        System.out.println("======= Rahul Ghanghas ==== TEST SEVEN EXECUTED =======");
+        assertEquals(0, urinals.countUrinals("1"));
     }
 }
