@@ -11,5 +11,7 @@ public class urinalsTest {
         assertTrue(urinals.goodString("100001"));
         System.out.println("======= Rahul Ghanghas ==== TEST TWO EXECUTED =======");
         assertTrue(urinals.goodString("100011"));
+        System.out.println("======= Rahul Ghanghas ==== TEST THREE EXECUTED =======");
+        assertEquals(1, urinals.countUrinals("10001"));
     }
 }
